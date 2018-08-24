@@ -59,14 +59,6 @@ export class Message implements Serializable<Message, string> {
         message.context = context;
         message.type = type;
         updatedlife = life || 3000;
-
-        // var mapp = {
-        //     DANGER: 'error',
-        //     WARNING: 'warn'
-        // };
-
-        // message.type = mapp[type];
-        // message.summar = mesage.type +  'Message'
         
         switch (type) {               
 
