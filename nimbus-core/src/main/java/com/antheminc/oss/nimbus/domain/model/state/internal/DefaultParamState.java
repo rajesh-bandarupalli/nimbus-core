@@ -350,7 +350,6 @@ public class DefaultParamState<T> extends AbstractEntityState<T> implements Para
 		Action a = getAspectHandlers().getParamStateGateway()._set(this, state); 
 		
 		if(a!=null) {
-			
 			// hook up on state change events
 			onStateChangeEvent(resolveRuntime().getTxnContext(), this, a);
 			
