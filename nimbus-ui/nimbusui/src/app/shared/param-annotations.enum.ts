@@ -87,6 +87,7 @@ export class ComponentTypes extends Enum<string> {
   public static readonly secondary = new Enum('SECONDARY');
   public static readonly plain = new Enum('PLAIN');
   public static readonly destructive = new Enum('DESTRUCTIVE');
+  public static readonly inputSwitch = new Enum('InputSwitch');
   // public static readonly fieldValue = new Enum('FieldValue');
   // public static readonly fieldValue = new Enum('FieldValue');
   // public static readonly fieldValue = new Enum('FieldValue');
